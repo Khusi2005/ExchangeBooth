@@ -8,22 +8,28 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color:#3A6D8C; 
     font-size:medium;
+    background-image:url('backgroundImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container{
-    background-color:#FFF0D1;
+    background-color:rgba(255, 255, 255, 0.85);
     padding : 2rem;
     border-radius: 1 rem;
     border-style: groove;
     min-height: 45vh;
     width: 40vh;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
 }
 
 form{
     margin: 2rem 0 1rem 0;
+}
+
+form input:hover,form button:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
 }
 
 form select,button,input {
@@ -55,6 +61,7 @@ form select,button,input {
     align-items: center;
     width: 6rem;
     border-radius: 0.5rem;
+    background-color: #f1f1f1;
     border: 1px solid #C1CFA1;
 }
 
@@ -73,4 +80,8 @@ form button{
     color:black;
     font-size: 1.15rem;
     cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b3b97d;
 }
